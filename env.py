@@ -1,0 +1,1 @@
+USERNAME='myCoolUsername'; PASSWORD='mySuperSecretPassword'
