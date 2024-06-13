@@ -1,1 +1,0 @@
-USERNAME='myCoolUsername'; PASSWORD='mySuperSecretPassword'
