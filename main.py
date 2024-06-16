@@ -1,9 +1,9 @@
-from env_vars import USERNAME, PASSWORD, BROWSER
+from env_vars import USERNAME, PASSWORD
 from selenium import webdriver
 from time import sleep
-from webdriver_manager import chrome, firefox
 
-driver = webdriver.Firefox(firefox.GeckoDriverManager().install()) if BROWSER=='firefox' else webdriver.Chrome(chrome.ChromeDriverManager().install())
+cService = webdriver.ChromeService(executable_path='/usr/lib/chromium-browser/chromedriver')
+driver = webdriver.Chrome(service=cService)
 driver.get("https://accounts.spotify.com/en/login")
 
 #username/password input boxes

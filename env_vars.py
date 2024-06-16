@@ -1,4 +1,3 @@
-# Replace USERNAME and PASSWORD with relevant data and, if needed, change BROWSER to firefox or chrome respectively (case sensitive)
+# Replace USERNAME and PASSWORD with relevant data 
 USERNAME='myCoolUsername'
 PASSWORD='superSecretPassword'
-BROWSER='firefox'
